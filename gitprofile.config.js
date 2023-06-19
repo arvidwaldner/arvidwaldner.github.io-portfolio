@@ -2,111 +2,127 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'arvidwaldner', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'arvid-waldner-aab00982',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    '.net core',
+    '.NET',
+    'C#',
+    'T-SQL (Microsoft SQL Server)',
+    'REST',
+    'WCF',
+    'Javascript/JQuery',
+    'ASP.NET MVC',
+    'ASP.NET',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Git',
+    'Visual Studio',
+    'Azure',
+    'Azure Devops',
+    'AzureStack',
+    'XML',
+    'Json',
+    'Swagger UI',
+    'react js',
+    'node js',
+    'Team Foundation Server'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'CGI Sverige AB - Jönköping, Sweden',
+      position: 'IT Consultant (Software engineer)',
+      from: 'February 2018',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.cgi.com/se/sv',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Qsys Sverige AB - Jönköping, Sweden',
+      position: 'Software engineer',
+      from: 'June 2017',
+      to: 'January 2018',
+      companyLink: 'https://www.qsys.se/',
+    },
+    {
+      company: 'Centiro Solutions AB - Borås, Sweden',
+      position: 'Software engineer',
+      from: 'October 2014',
+      to: 'May 2017',
+      companyLink: 'https://www.centiro.com/',
+    },
+    {
+      company: 'Sogeti - Örebro, Sweden',
+      position: 'Internship - Software engineer',
+      from: 'February 2014',
+      to: 'June 2014',
+      companyLink: 'https://www.sogeti.se/',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Microsoft Certified: Azure Fundamentals',
+      body: 'This certification validates basic knowledge of cloud services and how those services are provided with Azure. The holder of this certificate is able to demonstrate a fundamental knowledge of cloud concepts, along with Azure services, workloads, security, privacy, pricing, and support.',
+      year: 'June 2023',
+      link: 'https://learn.microsoft.com/en-us/certifications/azure-fundamentals/'
     },
-  ], */
+  ], 
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Örebro University',
+      degree: 'Computer Science - Bachelors Degree',
       from: '2012',
       to: '2014',
-    },
+    }
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-  ],
+  // externalProjects: [
+  //   {
+  //     title: ''
+  //     description:
+  //       '',
+  //     imageUrl: '',
+  //     link: '',
+  //   },
+  //   {
+  //     title: '',
+  //     description:
+  //       '',
+  //     imageUrl: '',
+  //     link: '',
+  //   },
+  // ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
