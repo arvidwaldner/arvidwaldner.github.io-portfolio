@@ -51,8 +51,6 @@ const config = {
     'XML',
     'Json',
     'Swagger UI',
-    'react js',
-    'node js',
     'Team Foundation Server'
   ],
   experiences: [
