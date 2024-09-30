@@ -44,6 +44,7 @@ const config = {
     'HTML',
     'CSS',
     'Git',
+    'Github',
     'Visual Studio',
     'Azure',
     'Azure Devops',
