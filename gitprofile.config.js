@@ -60,7 +60,7 @@ const config = {
       company: 'CGI Sverige AB - Jönköping, Sweden',
       position: 'IT Consultant (Software engineer)',
       from: 'February 2018',
-      to: 'Present',
+      to: 'January 2026',
       companyLink: 'https://www.cgi.com/se/sv',
     },
     {
